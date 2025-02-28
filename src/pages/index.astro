@@ -3,7 +3,7 @@ import "../styles/style.css";
 import "../styles/header.css";
 import "../styles/home.css";
 import Navbar from "../components/Navbar.astro";
-import imageCafe from "../assets/image.png";
+import imageCafe from "../assets/hero.png";
 ---
 
 <!doctype html>
@@ -44,28 +44,40 @@ import imageCafe from "../assets/image.png";
 					<div id="cta-buttons">
 						<a href="#" class="btn-default"> Ver menu </a>
 
-						<a
-							href="tel:+5555-55555"
-							id="phone-button"
-							class="btn-default"
-						>
-							<i class="fa-solid fa-phone"></i>
+						<a href="tel:+5555-55555" id="phone-button">
+							<button class="btn-default">
+								<i class="fa-solid fa-phone"></i>
+							</button>
 							(51) 9877-87565
 						</a>
 					</div>
 
 					<div class="social-media-buttons">
-						<a href="">
-							<i class="fa-brands fa-whatsapp"></i>
-							<i class="fa-brands fa-instagram"></i>
-							<i class="fa-brands fa-facebook"></i>
-						</a>
+						<a href=""><i class="fa-brands fa-whatsapp"></i></a>
+						<a href=""><i class="fa-brands fa-instagram"></i></a>
+						<a href=""><i class="fa-brands fa-facebook"></i></a>
 					</div>
 				</div>
 
-				<div id="banner"></div>
-				<img src={imageCafe.src} alt="Café" />
+				<div id="banner">
+					<img src={imageCafe.src} alt="Café" />
+				</div>
 			</section>
+
+			<sectio id="menu">
+				<h2 class="section-">Menu</h2>
+				<h3 class="section-">Nossos cafés especiais</h3>
+
+				<div id="dishes">
+					<div class="dish">
+						<div class="dish-heart">
+							<i class="fa-solid fa-heart"></i>
+						</div>
+						
+						<img src="" alt="">
+					</div>
+				</div>
+			</sectio>
 		</main>
 	</body>
 </html>
