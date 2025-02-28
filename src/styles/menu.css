@@ -75,12 +75,8 @@
         width:100%;
     }
 
-    #menu{
+    #menu .section-subtitle  {
         text-align: center;
-    }
-
-    .section-subtitle {
-        font-size: 1.5rem;
     }
     
 }
