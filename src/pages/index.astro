@@ -2,8 +2,14 @@
 import "../styles/style.css";
 import "../styles/header.css";
 import "../styles/home.css";
+import "../styles/menu.css";
 import Navbar from "../components/Navbar.astro";
-import imageCafe from "../assets/hero.png";
+import imagemPrincipal from "../assets/hero.png";
+import product1 from "../assets/product1.png";
+import product2 from "../assets/product2.png";
+import product3 from "../assets/product3.png";
+import product4 from "../assets/product4.png";
+
 ---
 
 <!doctype html>
@@ -60,23 +66,157 @@ import imageCafe from "../assets/hero.png";
 				</div>
 
 				<div id="banner">
-					<img src={imageCafe.src} alt="Café" />
+					<img src={imagemPrincipal.src} alt="Café" />
 				</div>
 			</section>
 
-			<sectio id="menu">
-				<h2 class="section-">Menu</h2>
-				<h3 class="section-">Nossos cafés especiais</h3>
+			<section id="menu">
+				<h2 class="section-title">Menu</h2>
+				<h3 class="section-subtitle">Nossos cafés especiais</h3>
 
 				<div id="dishes">
 					<div class="dish">
 						<div class="dish-heart">
 							<i class="fa-solid fa-heart"></i>
 						</div>
-						
-						<img src="" alt="">
+
+						<img
+							src={product1.src}
+							class="dish-image"
+							alt="Café"
+						/>
+
+						<h3 class="dish-title">Lorem Ipsum</h3>
+
+						<span class="dish-description">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+						</span>
+
+						<div class="dish-rate">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<span>(700+)</span>
+						</div>
+
+						<div class="dish-price">
+							<h4>R$ 20,00</h4>
+							<button class="btn-default">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</button>
+						</div>
 					</div>
+
+					<div class="dish">
+						<div class="dish-heart">
+							<i class="fa-solid fa-heart"></i>
+						</div>
+
+						<img
+							src={product2.src}
+							class="dish-image"
+							alt="Café"
+						/>
+
+						<h3 class="dish-title">Lorem Ipsum</h3>
+
+						<span class="dish-description">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+						</span>
+
+						<div class="dish-rate">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<span>(700+)</span>
+						</div>
+
+						<div class="dish-price">
+							<h4>R$ 20,00</h4>
+							<button class="btn-default">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</button>
+						</div>
+					</div>
+
+					<div class="dish">
+						<div class="dish-heart">
+							<i class="fa-solid fa-heart"></i>
+						</div>
+
+						<img
+							src={product3.src}
+							class="dish-image"
+							alt="Café"
+						/>
+
+						<h3 class="dish-title">Lorem Ipsum</h3>
+
+						<span class="dish-description">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+						</span>
+
+						<div class="dish-rate">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<span>(700+)</span>
+						</div>
+
+						<div class="dish-price">
+							<h4>R$ 20,00</h4>
+							<button class="btn-default">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</button>
+						</div>
+					</div>
+
+					<div class="dish">
+						<div class="dish-heart">
+							<i class="fa-solid fa-heart"></i>
+						</div>
+
+						<img
+							src={product4.src}
+							class="dish-image"
+							alt="Café"
+						/>
+
+						<h3 class="dish-title">Lorem Ipsum</h3>
+
+						<span class="dish-description">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+						</span>
+
+						<div class="dish-rate">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<span>(700+)</span>
+						</div>
+
+						<div class="dish-price">
+							<h4>R$ 20,00</h4>
+							<button class="btn-default">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</button>
+						</div>
+					</div>
+
 				</div>
+
 			</sectio>
 		</main>
 	</body>
