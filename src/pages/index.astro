@@ -1,15 +1,14 @@
 ---
 import "../styles/style.css";
-import "../styles/header.css";
-import "../styles/home.css";
-import "../styles/menu.css";
 import Navbar from "../components/Navbar.astro";
 import imagemPrincipal from "../assets/hero.png";
 import product1 from "../assets/product1.png";
 import product2 from "../assets/product2.png";
 import product3 from "../assets/product3.png";
 import product4 from "../assets/product4.png";
-
+import chef from "../assets/chef.png";
+import avatar from "../assets/avatar.png";
+import wave from "../assets/wave.svg";
 ---
 
 <!doctype html>
@@ -80,11 +79,7 @@ import product4 from "../assets/product4.png";
 							<i class="fa-solid fa-heart"></i>
 						</div>
 
-						<img
-							src={product1.src}
-							class="dish-image"
-							alt="Café"
-						/>
+						<img src={product1.src} class="dish-image" alt="Café" />
 
 						<h3 class="dish-title">Lorem Ipsum</h3>
 
@@ -115,11 +110,7 @@ import product4 from "../assets/product4.png";
 							<i class="fa-solid fa-heart"></i>
 						</div>
 
-						<img
-							src={product2.src}
-							class="dish-image"
-							alt="Café"
-						/>
+						<img src={product2.src} class="dish-image" alt="Café" />
 
 						<h3 class="dish-title">Lorem Ipsum</h3>
 
@@ -150,11 +141,7 @@ import product4 from "../assets/product4.png";
 							<i class="fa-solid fa-heart"></i>
 						</div>
 
-						<img
-							src={product3.src}
-							class="dish-image"
-							alt="Café"
-						/>
+						<img src={product3.src} class="dish-image" alt="Café" />
 
 						<h3 class="dish-title">Lorem Ipsum</h3>
 
@@ -185,11 +172,7 @@ import product4 from "../assets/product4.png";
 							<i class="fa-solid fa-heart"></i>
 						</div>
 
-						<img
-							src={product4.src}
-							class="dish-image"
-							alt="Café"
-						/>
+						<img src={product4.src} class="dish-image" alt="Café" />
 
 						<h3 class="dish-title">Lorem Ipsum</h3>
 
@@ -214,14 +197,89 @@ import product4 from "../assets/product4.png";
 							</button>
 						</div>
 					</div>
-
 				</div>
-
 			</section>
 
 			<section id="testimonials">
+				<img src={chef.src} id="testimonial_chef" alt="/" />
 
+				<div id="testimonials_content">
+					<h2 class="section-title">Depoimentos</h2>
+					<h3 class="section-subtitle">
+						O que os clientes falam sobre nós
+					</h3>
+
+					<div id="feedbacks">
+						<div class="feedback">
+							<img
+								src={avatar.src}
+								class="feedback-avatar"
+								alt="/"
+							/>
+
+							<div class="feedback-content">
+								<p>
+									Fulana de Tal
+									<span>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</span>
+								</p>
+								<p>
+									"Lorem ipsum dolor sit, amet consectetur
+									adipisicing elit. Repellat voluptatibus
+									cumque dolor ea est quae alias
+									necessitatibus"
+								</p>
+							</div>
+						</div>
+
+						<div class="feedback">
+							<img
+								src={avatar.src}
+								class="feedback-avatar"
+								alt="/"
+							/>
+
+							<div class="feedback-content">
+								<p>
+									Fulana de Tal
+									<span>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</span>
+								</p>
+								<p>
+									"Lorem ipsum dolor sit, amet consectetur
+									adipisicing elit. Repellat voluptatibus
+									cumque dolor ea est quae alias
+									necessitatibus"
+								</p>
+							</div>
+						</div>
+					</div>
+					<button class="btn-default"> Ver mais avaliações </button>
+				</div>
 			</section>
 		</main>
+
+		<footer>
+			<img src={wave.src} />
+			<div id="footer-itens">
+				<span id="copyright"> &copy 2025 Gabriela Alvarenga </span>
+
+				<div class="social-media-buttons">
+					<a href=""><i class="fa-brands fa-whatsapp"></i></a>
+					<a href=""><i class="fa-brands fa-instagram"></i></a>
+					<a href=""><i class="fa-brands fa-facebook"></i></a>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
