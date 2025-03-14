@@ -4,5 +4,5 @@ $(function () {
         $(this).find('i').toggleClass('fa-x'); 
     });
 
-    const
+
 });
