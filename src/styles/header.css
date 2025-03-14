@@ -17,14 +17,14 @@ header {
 
 #nav-logo {
     font-size: 20px;
-    color: #ffffff;
+    color:var(--color-neutral-0)fff;
     padding-right: 20px;
     font-weight: bold;
 }
 
 
 #nav-logo:hover {
-    color: #E07A5F;
+    color: var(--color-primiry-3);
 }
 
 #nav-list {
@@ -35,14 +35,14 @@ header {
 
 .nav-item a {
     text-decoration: none;
-    color: #ffffff;
+    color:var(--color-neutral-0)fff;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 .nav-item.active a {
-    color: #ffffff;
-    border-bottom: 3px solid #E07A5F;
+    color:var(--color-neutral-0)fff;
+    border-bottom: 3px solid var(--color-primiry-3);
 }
 
 #mobile-btn {

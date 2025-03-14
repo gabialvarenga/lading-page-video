@@ -31,7 +31,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: #ffffff;
+    background-color:var(--color-neutral-0)fff;
     padding: 12px;
     border-radius: 12px;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
@@ -47,11 +47,11 @@
 .feedback-content p {
     display: flex;
     justify-content: space-between;
-    color: #1d1d1d;
+    color: var(--color-neutral-1) ad;
 }
 
 .feedback-content p span {
-    color: #b96e57;
+    color: var(--color-primiry-5);
 }
 
 @media screen and (max-width: 1555px) {
