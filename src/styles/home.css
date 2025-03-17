@@ -14,11 +14,11 @@
 
 #cta .title {
     font-size: 3rem;
-    color:var(--color-neutral-0);
+    color:var(--color-primary-2);
 }
 
 #cta .title span {
-    color: var(--color-primiry-3);
+    color: var(--color-primary-3);
 }
 
 #cta .description {
@@ -40,11 +40,17 @@
     gap: 8px;
     align-items: center;
     padding: 8px 14px;
-    font-weight: 500;
+    font-weight: 600;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     background-color: rgb(255, 255, 255);
     border-radius: 12px;
-    color: var(--color-neutral-1) ad !important;
+    text-decoration: none;
+    color: var(--color-neutral-1) ;
+}
+
+#phone-button span {
+    color: var(--color-neutral-1);
+    font-weight: 600;
 }
 
 #phone_button button {
@@ -64,8 +70,8 @@
     width: fit-content;
 }
 
-.shape {
-    background-color: var(--color-primiry-2);
+/* .shape {
+    background-color: var(--color-primary-2);
     width: 50%;
     height: 90%;
     position: absolute;
@@ -73,7 +79,7 @@
     top: 0;
     right: 0;
     z-index: 1;
-}
+} */
 
 /*Responsividade*/
 @media screen and (max-width: 1555px) {

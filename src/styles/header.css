@@ -3,8 +3,6 @@ header {
     padding: 20px 8%;
     position: sticky;
     top: 0;
-    background-color: #422b2b;
-    z-index: 3;
 }
 
 #navbar {
@@ -16,15 +14,15 @@ header {
 }
 
 #nav-logo {
-    font-size: 20px;
-    color:var(--color-neutral-0)fff;
+    font-size: 34px;
+    color:var(--color-neutral-2);
     padding-right: 20px;
     font-weight: bold;
 }
 
 
 #nav-logo:hover {
-    color: var(--color-primiry-3);
+    color: var(--color-primary-3);
 }
 
 #nav-list {
@@ -35,14 +33,14 @@ header {
 
 .nav-item a {
     text-decoration: none;
-    color:var(--color-neutral-0)fff;
+    color:var(--color-neutral-2);
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 .nav-item.active a {
-    color:var(--color-neutral-0)fff;
-    border-bottom: 3px solid var(--color-primiry-3);
+    color:var(--color-neutral-2);
+    border-bottom: 3px solid var(--color-primary-3);
 }
 
 #mobile-btn {

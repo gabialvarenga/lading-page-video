@@ -1,5 +1,5 @@
 footer {
-    background-color:  var(--color-primiry-3);
+    background-color:  var(--color-primary-3);
 }
 
 #footer-itens{
@@ -10,7 +10,7 @@ footer {
 }
 
 #copyright {
-    color: var(--color-neutral-1) ad;
+    color: var(--color-neutral-1);
     font-weight: 500;
 }
 

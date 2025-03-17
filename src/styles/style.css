@@ -4,17 +4,19 @@
 @import url('menu.css');
 @import url('testimonials.css');
 @import url('footer.css');
+@import url('about.css');
 
 :root {
-    --color-primiry-1: #422b2b;
-    --color-primiry-2: #5e4f4f;
-    --color-primiry-3: #E07A5F;
-    --color-primiry-4: #c97c63;
-    --color-primiry-5: #b96e57;
+    --color-primary-1: #fdfcfb; /* Fundo claro (gradiente inicial) */
+    --color-primary-2: #4a2f1c; /* Cor do título principal */
+    --color-primary-3: #d1a684; /* Borda do título */
+    --color-primary-4: #67442b; /* Subtítulo */
+    --color-primary-5: #4a3b28; /* Texto geral */
 
-    --color-neutral-0: #fff;
-    --color-neutral-1: #1d1d1d;
+    --color-neutral-0: #fff; /* Branco puro */
+    --color-neutral-1: #1d1d1d; /* Preto neutro */
 }
+
 
 * {
     margin: 0;
@@ -24,8 +26,18 @@
 }
 
 body {
-    background-color: var(--color-primiry-1);
-    color: white;
+    background: linear-gradient(135deg, var(--color-primary-1), #e2d1c3);
+    line-height: 1.6;
+    color: var(--color-primary-2);
+}
+
+header {
+    background: var(--color-primary-1); 
+    padding: 16px 8%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 section {
@@ -37,7 +49,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-primiry-4);
+    background-color: var(--color-primary-4);
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
@@ -45,11 +57,12 @@ section {
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     text-decoration: none;
+    color: var(--color-neutral-0);
 }
 
 
 .btn-default:hover {
-    background-color: var(--color-primiry-5);
+    background-color: var(--color-primary-5);
     transform: scale(1.05);
 }
 
@@ -64,11 +77,11 @@ section {
     justify-content: center;
     width: 45px;
     height: 40px;
-    background-color:var(--color-neutral-0);
+    background-color: var(--color-neutral-0);
     font-size: 1.25rem;
     border-radius: 10px;
     text-decoration: none;
-    color: var(--color-neutral-1) ad;
+    color: var(--color-neutral-1);
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow .3s ease;
 }
@@ -77,11 +90,12 @@ section {
     box-shadow: 0px 0px 12px 8px rgba(255, 255, 255, 0.1);
 }
 
-.section-title{
-    color:  var(--color-primiry-5);
+.section-title {
+    color: var(--color-primary-3);
     font-size: 1.563rem;
 }
 
 .section-subtitle {
     font-size: 2.1875rem;
+    color: var(--color-primary-4);
 }
