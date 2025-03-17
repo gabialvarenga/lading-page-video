@@ -4,7 +4,9 @@
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-    padding: 60px 10%;
+    padding: 60px 10% 0 10%;
+    position: relative;
+    bottom: -5px
 }
 
 .about-content {
@@ -43,15 +45,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 500px;
+    height: auto;
+    display: flex;
+
 }
 
 .about-image img {
-    max-width: 100%;
-    width: 450px;
-    height: auto;
+    max-width: 100%; /* Garante que ela respeite o tamanho do contêiner */
+    width: 600px; /* Aumente este valor para o tamanho desejado */
+    height: auto; /* Mantém a proporção da imagem */
     border-radius: 16px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    transform: scale(1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Melhor impacto visual */
+    transform: scale(1); /* Permite o efeito hover */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -87,7 +93,9 @@
     }
 
     .about-image img {
-        width: 80%;
-        max-width: 300px;
+        width: 90%;
+        /* reduz na tela menor */
+        height: auto;
     }
+
 }

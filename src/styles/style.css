@@ -26,7 +26,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, var(--color-primary-1), #e2d1c3);
+    background: var(--color-primary-1);
     line-height: 1.6;
     color: var(--color-primary-2);
 }

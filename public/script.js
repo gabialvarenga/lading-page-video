@@ -24,9 +24,28 @@ $(function () {
         sections.each(function(i) {
             const section = $(this);
             const sectionTop = section.offset().top - 96;
-            const sectionBotton = sectionTop = section.outerHeight();
+            const sectionBottom = sectionTop + section.outerHeight();
 
-            if(scrollPosition)
+            if(scrollPosition >= sectionTop && scrollPosition < sectionBotton){
+                activeSectionIndex = i;
+            return false;
+            }
         })
-    })
+
+        navItens.removeClass('active');
+        $(navItens[activeSectionIndex]).addClass('active');
+    });
+
+    const sr = ScrollReveal({
+        duration: 2000,
+        distance: '20%',
+        origin: 'left',
+    });
+    
+    sr.reveal('#cta, .dish');
+    sr.reveal('#testimonial-chef', { duration: 1000 });
+    sr.reveal('.feedback', { origin: 'right', duration: 1000 });
+    sr.reveal('.about-content', { origin: 'left', duration: 1000 });
+    sr.reveal('.about-image', { origin: 'right', duration: 1100 });
+    
 });

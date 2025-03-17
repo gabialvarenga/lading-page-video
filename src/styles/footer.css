@@ -1,6 +1,10 @@
 footer {
     background-color:  var(--color-primary-3);
+    margin-top: -5px;
 }
+
+footer img {
+    margin-top: -2px;}
 
 #footer-itens{
   display: flex;
