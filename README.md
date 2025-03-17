@@ -1,48 +1,26 @@
-# Astro Starter Kit: Basics
+# ☕ Coffee - Landing Page
 
-```sh
-npm create astro@latest -- --template basics
-```
+Bem-vindo ao repositório da **Coffee - Landing Page**! Este projeto é uma página moderna e responsiva para uma cafeteria fictícia chamada **Coffee**.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 📖 Sobre o Projeto
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+A **Coffee - Landing Page** foi desenvolvida como parte de um projeto de aprendizado, focando em técnicas de design web e desenvolvimento front-end. O projeto é ideal para praticar habilidades em HTML, CSS e JavaScript, bem como para entender como criar páginas responsivas que atraem usuários.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## 🛠️ Tecnologias Utilizadas
 
-## 🚀 Project Structure
+- **Astro** - Framework estático para otimização do desempenho do site.
+- **HTML** - Estrutura principal da página.
+- **CSS** - Estilização para um design responsivo e atrativo.
+- **JavaScript** - Para interatividade e funcionalidades adicionais, se necessário.
 
-Inside of your Astro project, you'll see the following folders and files:
+## 👩‍💻 O que eu fiz
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- **Desenvolvimento da Estrutura:** Criei a estrutura básica da landing page utilizando HTML, organizando seções como cabeçalho, vídeo, descrição e rodapé.
+- **Estilização:** Apliquei estilos CSS para garantir que a página fosse responsiva e visualmente agradável em diferentes dispositivos.
+- **Integração do Vídeo:** Incorporei um vídeo que pode ser facilmente trocado, permitindo que você destaque seu conteúdo de forma eficaz.
+- **Otimização:** Utilizei o framework Astro para melhorar o desempenho da página, garantindo tempos de carregamento rápidos e uma experiência do usuário suave.
+  
+## 📱 Responsividade
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+A página foi projetada para ser totalmente responsiva, garantindo uma boa experiência tanto em dispositivos móveis quanto em desktops.
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
